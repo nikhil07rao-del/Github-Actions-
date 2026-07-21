@@ -1,1 +1,1 @@
-check repo 
+echo "hello world"
