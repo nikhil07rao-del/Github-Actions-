@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print a message
-        run: echo "Hello World"
+        run: echo "Hello World b17 from github actions"
 
       - name: do a calculation
         run: echo $((10 + 987))
