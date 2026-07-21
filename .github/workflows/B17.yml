@@ -9,7 +9,7 @@ jobs:
         run: echo "Hello World"
 
       - name: do a calculation
-        run: echo $((10 + 90))
+        run: echo $((10 + 987))
 
       - name: check the version of os on runner
         run: cat /etc/os-release
