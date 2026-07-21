@@ -8,8 +8,8 @@ jobs:
       - name: print a message
         run: echo "Hello World"
 
-        name: do a calculation
-        run: echo lex 10 +090
+      - name: do a calculation
+        run: echo $((10 + 90))
 
-        name: check the version of os on runner
+      - name: check the version of os on runner
         run: cat /etc/os-release
