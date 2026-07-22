@@ -1,0 +1,17 @@
+name: my first workflow
+on: push
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Putting code on the runner
+        uses: git clone https://github.com/nikhil07rao-del/Github-Actions-.git
+
+      - name: List files
+        run: ls -la
+
+      - name: Run custom script
+        run: |
+          chmod +x new.sh
+          ./new.sh
